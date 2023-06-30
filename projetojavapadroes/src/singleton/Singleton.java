@@ -13,6 +13,11 @@ public class Singleton {
 		System.out.println(singletonEager);
 		singletonEager = SingletonEager.getInstancia();
 		System.out.println(singletonEager);
+		
+		SingletonLasyHolder singletonLasyHolder = SingletonLasyHolder.getInstancia();
+		System.out.println(singletonLasyHolder);
+		singletonLasyHolder = SingletonLasyHolder.getInstancia();
+		System.out.println(singletonLasyHolder);
 	}
 
 }
